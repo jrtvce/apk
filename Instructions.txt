@@ -1,0 +1,51 @@
+Panel login:
+username: admin
+pass: admin
+
+
+
+
+Instructions is simple:
+
+Panel url is the dns you enter into the TV App in normal hardcoded dns postiion.
+
+**Works best if you put panel on subdomain** 
+
+e.g mega.appnscripts.uk
+
+because some apps dont like folders at end of domain.
+
+
+
+
+
+Bit of info:
+
+
+Works on most apps, allowing you to change DNS remotely on hardcoded apps, simply add more DNS to existing apps where your restricted to only a few DNS or buy with a new app with it.
+
+Hardcoded apps are no longer a restriction and Single Dns or 3/5 Dns apps  can now handle more if combined with my Mega Panel. Also now working with STB Emu (instructions at bottom).
+
+
+Can add up to 20 DNS (Will work with most suppliers, if you get an issue with a supplier replace to front of the portal list and sometimes can fix issue. But with all panels having custom
+firewall and setups then can be hard to get it work all suppliers multi dns but single dns will in this case.
+
+Can be added to existing panels like xciptv and smarters, use the panel link as dns in apps/panels.
+
+
+IONCUBE LOADER IS REQUIRED TO BE ENABLED ON HOSTING
+
+
+
+*STBEMU ONLY BELOW*
+
+STB Emu can also be used depending on how many dns your app has
+
+use portal 1 to 4 for STB Emu, DO NOT ADD /c/ on end of dns
+and in the app you enter
+
+http://yourpanelurl.com/stb1    <---- this will be portal 1
+http://yourpanelurl.com/stb2    <---- this will be portal 2
+http://yourpanelurl.com/stb3    <---- this will be portal 3
+http://yourpanelurl.com/stb4    <---- this will be portal 4
+
