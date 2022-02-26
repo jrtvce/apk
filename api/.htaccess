@@ -1,0 +1,11 @@
+RewriteEngine on 
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^live/(.*)$ live.php?path=$1 [NC,L]
+# RewriteRule ^(.*)$ $1.php [NC,L]
+
+AddType application/x-httpd-php .html .htm
+<Files ".db.db">
+Order Allow,Deny
+Deny from all
+</Files>
